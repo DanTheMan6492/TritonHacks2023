@@ -8,6 +8,30 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 289
+    y: 1191
+    width: 1221
+    height: 846
+  m_ShowMode: 0
+  m_Title: Project Settings
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 300, y: 221}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_Maximized: 0
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -19,12 +43,62 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
-  m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_Title: Game
+  m_RootView: {fileID: 5}
+  m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
---- !u!114 &2
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectSettingsWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1221
+    height: 846
+  m_MinSize: {x: 300, y: 221}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1221
+    height: 846
+  m_MinSize: {x: 300, y: 221}
+  m_MaxSize: {x: 4000, y: 4021}
+  vertical: 0
+  controlID: 33882
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,22 +111,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 3}
-  - {fileID: 5}
-  - {fileID: 4}
+  - {fileID: 6}
+  - {fileID: 8}
+  - {fileID: 7}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1920
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    height: 1117
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    height: 997
+>>>>>>> parent of cda49fa (Added interactable objects)
+  m_MinSize: {x: 875, y: 300}
+=======
+  m_MinSize: {x: 875, y: 392}
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
     height: 997
   m_MinSize: {x: 875, y: 300}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    height: 997
+  m_MinSize: {x: 875, y: 300}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+  m_MinSize: {x: 875, y: 392}
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &3
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -74,10 +170,10 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LoadedToolbars:
-  - {fileID: 24}
-  m_MainToolbar: {fileID: 24}
+  - {fileID: 28}
+  m_MainToolbar: {fileID: 28}
   m_LastLoadedLayoutName: 
---- !u!114 &4
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,7 +194,15 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &5
+<<<<<<< HEAD
+=======
+--- !u!114 &5
+>>>>>>> parent of cda49fa (Added interactable objects)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,16 +217,17 @@ MonoBehaviour:
   m_Children:
   - {fileID: 6}
   - {fileID: 11}
+<<<<<<< HEAD
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1920
-    height: 947
+    height: 1067
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 110
+  controlID: 129
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,12 +248,290 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1176
+    height: 1067
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 60
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1176
+    height: 631
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 61
+=======
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+--- !u!114 &8
+=======
+>>>>>>> parent of cda49fa (Added interactable objects)
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_Children: []
+=======
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 14}
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+>>>>>>> parent of cda49fa (Added interactable objects)
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 947
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+<<<<<<< HEAD
+  controlID: 41313
+--- !u!114 &9
+=======
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 947
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 110
+--- !u!114 &6
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+  controlID: 110
+--- !u!114 &6
+>>>>>>> parent of cda49fa (Added interactable objects)
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  m_Children: []
+=======
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 10}
+>>>>>>> parent of cda49fa (Added interactable objects)
+  m_Position:
+    serializedVersion: 2
+    x: 337
+    y: 0
+<<<<<<< HEAD
+    width: 839
+    height: 631
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &10
+=======
+    width: 1176
     height: 947
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 40
 --- !u!114 &7
+>>>>>>> parent of cda49fa (Added interactable objects)
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+<<<<<<< HEAD
+=======
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+<<<<<<< HEAD
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1176
+    height: 560
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 85
+--- !u!114 &8
+=======
+--- !u!114 &5
+>>>>>>> parent of cda49fa (Added interactable objects)
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+>>>>>>> parent of cda49fa (Added interactable objects)
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+<<<<<<< HEAD
+    y: 631
+    width: 1176
+    height: 436
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+=======
+    y: 0
+    width: 337
+    height: 560
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+=======
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 947
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 110
+--- !u!114 &6
+>>>>>>> parent of cda49fa (Added interactable objects)
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+<<<<<<< HEAD
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+=======
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+  m_EditorClassIdentifier: 
+  m_Children:
+<<<<<<< HEAD
+=======
+  - {fileID: 7}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+  - {fileID: 7}
+>>>>>>> parent of cda49fa (Added interactable objects)
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 839
+    height: 560
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 14}
+  m_Selected: 1
+  m_LastSelected: 0
+=======
+    width: 990
+    height: 1067
+  m_MinSize: {x: 403, y: 342}
+  m_MaxSize: {x: 8003, y: 8042}
+  vertical: 1
+  controlID: 41314
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+--- !u!114 &10
+=======
+    width: 1176
+    height: 947
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 40
+--- !u!114 &7
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    width: 1176
+    height: 947
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 40
+--- !u!114 &7
+>>>>>>> parent of cda49fa (Added interactable objects)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -173,7 +556,136 @@ MonoBehaviour:
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 85
+=======
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
 --- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 14}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+    y: 560
+    width: 1176
+    height: 387
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+>>>>>>> parent of cda49fa (Added interactable objects)
+  - {fileID: 17}
+  - {fileID: 18}
+=======
+    y: 0
+    width: 337
+    height: 560
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - {fileID: 19}
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+  - {fileID: 15}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+  - {fileID: 15}
+>>>>>>> parent of cda49fa (Added interactable objects)
+  m_Selected: 0
+  m_LastSelected: 0
+=======
+    y: 30
+    width: 1920
+    height: 1067
+  m_MinSize: {x: 678, y: 342}
+  m_MaxSize: {x: 12004, y: 8042}
+  vertical: 0
+  controlID: 41313
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+<<<<<<< HEAD
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+=======
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+<<<<<<< HEAD
+    width: 839
+    height: 560
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 14}
+  m_Selected: 1
+  m_LastSelected: 0
+=======
+    width: 990
+    height: 1067
+  m_MinSize: {x: 403, y: 342}
+  m_MaxSize: {x: 8003, y: 8042}
+  vertical: 1
+  controlID: 41314
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 11}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 990
+    height: 762
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 41315
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -189,17 +701,26 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+    y: 560
+    width: 1176
+    height: 387
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 17}
+=======
     y: 0
-    width: 337
-    height: 560
+    width: 400
+    height: 762
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 19}
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &9
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -214,19 +735,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 337
+    x: 400
     y: 0
-    width: 839
-    height: 560
+    width: 590
+    height: 762
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 14}
+  - {fileID: 20}
+  - {fileID: 18}
   m_Selected: 1
   m_LastSelected: 0
---- !u!114 &10
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -236,24 +757,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 560
-    width: 1176
-    height: 387
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 17}
+    y: 762
+    width: 990
+    height: 305
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 22}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &11
+  - {fileID: 21}
+  - {fileID: 22}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -266,12 +787,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 12}
-  - {fileID: 13}
+  - {fileID: 15}
+  - {fileID: 16}
   m_Position:
     serializedVersion: 2
-    x: 1176
+    x: 990
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 744
+<<<<<<< HEAD
+=======
+    width: 930
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+    height: 1067
+  m_MinSize: {x: 275, y: 171}
+  m_MaxSize: {x: 4001, y: 8021}
+  vertical: 1
+<<<<<<< HEAD
+  controlID: 130
+=======
+    height: 947
+  m_MinSize: {x: 276, y: 192}
+  m_MaxSize: {x: 4001, y: 8042}
+  vertical: 1
+  controlID: 111
+>>>>>>> parent of cda49fa (Added interactable objects)
+--- !u!114 &12
+=======
+  controlID: 41220
+--- !u!114 &15
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
     width: 744
     height: 947
   m_MinSize: {x: 276, y: 192}
@@ -279,6 +828,25 @@ MonoBehaviour:
   vertical: 1
   controlID: 111
 --- !u!114 &12
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    width: 744
+    height: 947
+  m_MinSize: {x: 276, y: 192}
+  m_MaxSize: {x: 4001, y: 8042}
+  vertical: 1
+  controlID: 111
+--- !u!114 &12
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    width: 930
+    height: 1067
+  m_MinSize: {x: 275, y: 171}
+  m_MaxSize: {x: 4001, y: 8021}
+  vertical: 1
+  controlID: 41220
+--- !u!114 &15
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -295,18 +863,40 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 744
+<<<<<<< HEAD
+=======
+    width: 930
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+    width: 930
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+    height: 710
+=======
+    height: 630
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
     width: 744
     height: 630
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    width: 744
+    height: 630
+>>>>>>> parent of cda49fa (Added interactable objects)
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 23}
   m_Panes:
-  - {fileID: 19}
-  - {fileID: 20}
-  - {fileID: 21}
+  - {fileID: 23}
+  - {fileID: 24}
+  - {fileID: 25}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &13
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -316,24 +906,71 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimationWindow
+  m_Name: AnimatorControllerTool
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    y: 710
+    width: 930
+    height: 357
+=======
     y: 630
     width: 744
     height: 317
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    y: 630
+    width: 744
+    height: 317
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    y: 630
+    width: 744
+    height: 317
+>>>>>>> parent of cda49fa (Added interactable objects)
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 27}
   m_Panes:
-  - {fileID: 22}
-  - {fileID: 23}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &14
+  - {fileID: 26}
+  - {fileID: 27}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13854, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Project Settings
+    m_Image: {fileID: -5712115415447495865, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 289
+    y: 1191
+    width: 1221
+    height: 825
+  m_ViewDataDictionary: {fileID: 0}
+  m_PosLeft: {x: 0, y: 0}
+  m_PosRight: {x: 0, y: 0}
+  m_Scope: 1
+  m_SplitterFlex: 0.2
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -353,10 +990,34 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 337
+    x: 400
     y: 73
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 837
+<<<<<<< HEAD
+    height: 610
+=======
+    height: 539
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    width: 588
+    height: 741
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
     width: 837
     height: 539
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    width: 837
+    height: 539
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    width: 588
+    height: 741
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -364,11 +1025,31 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_TargetSize: {x: 837, y: 589}
+=======
   m_TargetSize: {x: 837, y: 518}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+  m_TargetSize: {x: 588, y: 720}
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+  m_TargetSize: {x: 837, y: 518}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+  m_TargetSize: {x: 837, y: 518}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+  m_TargetSize: {x: 588, y: 720}
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_MaximizeOnPlay: 0
+  m_MaximizeOnPlay: 1
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -379,10 +1060,41 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_HBaseRangeMin: -418.5
+    m_HBaseRangeMax: 418.5
+<<<<<<< HEAD
+    m_VBaseRangeMin: -305
+    m_VBaseRangeMax: 305
+=======
+    m_VBaseRangeMin: -259
+    m_VBaseRangeMax: 259
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+=======
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+    m_HBaseRangeMin: -294
+    m_HBaseRangeMax: 294
+    m_VBaseRangeMin: -360
+    m_VBaseRangeMax: 360
+<<<<<<< HEAD
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+=======
+>>>>>>> parent of cda49fa (Added interactable objects)
     m_HBaseRangeMin: -418.5
     m_HBaseRangeMax: 418.5
     m_VBaseRangeMin: -259
     m_VBaseRangeMax: 259
+<<<<<<< HEAD
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -399,17 +1111,83 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      y: 0
+      width: 837
+      height: 610
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 418.5, y: 305}
+=======
       y: 21
       width: 837
       height: 518
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 418.5, y: 259}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+      y: 21
+      width: 837
+      height: 518
+    m_Scale: {x: 1, y: 1}
+<<<<<<< HEAD
+    m_Translation: {x: 294, y: 360}
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+    m_Translation: {x: 418.5, y: 259}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+      y: 21
+      width: 837
+      height: 518
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 418.5, y: 259}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+      y: 21
+      width: 588
+      height: 720
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 294, y: 360}
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      x: -418.5
+<<<<<<< HEAD
+      y: -305
+      width: 837
+      height: 610
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 837, y: 610}
+=======
+      y: -259
+      width: 837
+      height: 518
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 837, y: 539}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+      x: -294
+      y: -360
+      width: 588
+      height: 720
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 588, y: 741}
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
       x: -418.5
       y: -259
       width: 837
@@ -417,12 +1195,31 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 837, y: 539}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+      x: -418.5
+      y: -259
+      width: 837
+      height: 518
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 837, y: 539}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+      x: -294
+      y: -360
+      width: 588
+      height: 720
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 588, y: 741}
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &15
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -444,15 +1241,59 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 336
+<<<<<<< HEAD
+    height: 610
+=======
+    height: 539
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    width: 399
+    height: 741
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
     width: 336
     height: 539
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    width: 336
+    height: 539
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    width: 399
+    height: 741
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      m_ExpandedIDs: 48fbffff
+=======
       m_ExpandedIDs: 66fbffff
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+      m_ExpandedIDs: 5efbffffe842000008430000384300004e43000062430000
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+      m_ExpandedIDs: 66fbffff
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+      m_ExpandedIDs: 66fbffff
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+      m_ExpandedIDs: 5efbffffe842000008430000384300004e43000062430000
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -468,7 +1309,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 11}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -476,7 +1317,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &16
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -496,10 +1337,43 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 337
+    y: 73
+    width: 837
+    height: 610
+=======
+=======
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+>>>>>>> parent of cda49fa (Added interactable objects)
     x: 682
     y: 19
     width: 1687
     height: 1202
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    x: 400
+    y: 73
+    width: 588
+    height: 741
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    x: 400
+    y: 73
+    width: 588
+    height: 741
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -512,9 +1386,39 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: {x: 7.086801, y: -0.78988856, z: -11.034305}
+    speed: 2
+    m_Value: {x: 7.086801, y: -0.78988856, z: -11.034305}
+=======
     m_Target: {x: 18.629457, y: 0.10234642, z: 11.1187}
     speed: 2
     m_Value: {x: 18.629457, y: 0.10234642, z: 11.1187}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_Target: {x: 4.5924716, y: 4.397817, z: -13.995079}
+    speed: 2
+    m_Value: {x: 4.5924716, y: 4.397817, z: -13.995079}
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+    m_Target: {x: 18.629457, y: 0.10234642, z: 11.1187}
+    speed: 2
+    m_Value: {x: 18.629457, y: 0.10234642, z: 11.1187}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_Target: {x: 18.629457, y: 0.10234642, z: 11.1187}
+    speed: 2
+    m_Value: {x: 18.629457, y: 0.10234642, z: 11.1187}
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_Target: {x: 4.5924716, y: 4.397817, z: -13.995079}
+    speed: 2
+    m_Value: {x: 4.5924716, y: 4.397817, z: -13.995079}
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -565,9 +1469,39 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: 12.097798
+    speed: 2
+    m_Value: 12.097798
+=======
     m_Target: 16.56501
     speed: 2
     m_Value: 16.56501
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_Target: 5.823649
+    speed: 2
+    m_Value: 5.823649
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+    m_Target: 16.56501
+    speed: 2
+    m_Value: 16.56501
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_Target: 16.56501
+    speed: 2
+    m_Value: 16.56501
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_Target: 5.823649
+    speed: 2
+    m_Value: 5.823649
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -592,7 +1526,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -613,9 +1547,39 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    y: 704
+    width: 1175
+    height: 415
+=======
     y: 633
     width: 1175
     height: 366
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    y: 835
+    width: 989
+    height: 284
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+    y: 633
+    width: 1175
+    height: 366
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    y: 633
+    width: 1175
+    height: 366
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    y: 835
+    width: 989
+    height: 284
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -630,22 +1594,102 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    - Assets/Scenes
+=======
     - Assets/Sprites/Tiles
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    - Assets/Sprites/Decorations
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+    - Assets/Sprites/Tiles
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    - Assets/Sprites/Tiles
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    - Assets/Sprites/Decorations
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - Assets/Scenes
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Github\TritonHacks2023\TritonHacks
+=======
   - Assets/Sprites/Tiles
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\Documents\GitHub\TritonHacks2023\TritonHacks
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+  - Assets/Sprites/Decorations
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Githubclone\TritonHacks2023\TritonHacks
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+  - Assets/Sprites/Tiles
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\User\Documents\GitHub\TritonHacks2023\TritonHacks
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+  - Assets/Sprites/Tiles
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\User\Documents\GitHub\TritonHacks2023\TritonHacks
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+  - Assets/Sprites/Decorations
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Githubclone\TritonHacks2023\TritonHacks
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_SelectedIDs: 96440000
+    m_LastClickedID: 17558
+    m_ExpandedIDs: 00000000884400008a44000000ca9a3b
+=======
     m_SelectedIDs: 58440000
     m_LastClickedID: 17496
     m_ExpandedIDs: 00000000464400004844000000ca9a3b
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_SelectedIDs: 64440000
+    m_LastClickedID: 17508
+    m_ExpandedIDs: 00000000544400005644000000ca9a3b
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+    m_SelectedIDs: 58440000
+    m_LastClickedID: 17496
+    m_ExpandedIDs: 00000000464400004844000000ca9a3b
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_SelectedIDs: 58440000
+    m_LastClickedID: 17496
+    m_ExpandedIDs: 00000000464400004844000000ca9a3b
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_SelectedIDs: 64440000
+    m_LastClickedID: 17508
+    m_ExpandedIDs: 00000000544400005644000000ca9a3b
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -661,7 +1705,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 13}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -673,7 +1717,27 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_ExpandedIDs: 00000000884400008a440000
+=======
     m_ExpandedIDs: 000000004644000048440000
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_ExpandedIDs: 00000000544400005644000000ca9a3b
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+    m_ExpandedIDs: 000000004644000048440000
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_ExpandedIDs: 000000004644000048440000
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_ExpandedIDs: 00000000544400005644000000ca9a3b
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -698,10 +1762,30 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 640fffff
+    m_LastClickedInstanceID: -61596
     m_HadKeyboardFocusLastEvent: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_ExpandedInstanceIDs: c623000050170000fe4300001e58000000000000644300009c440000f05700007e440000
+=======
     m_ExpandedInstanceIDs: c623000050170000fe4300001e58000000000000644300009c440000
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_ExpandedInstanceIDs: c623000050170000fe4300001e58000000000000644300009c4400008e660000cc6b0000d86b0000
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+    m_ExpandedInstanceIDs: c623000050170000fe4300001e58000000000000644300009c440000
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_ExpandedInstanceIDs: c623000050170000fe4300001e58000000000000644300009c440000
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    m_ExpandedInstanceIDs: c623000050170000fe4300001e58000000000000644300009c4400008e660000cc6b0000d86b0000
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -717,7 +1801,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 13}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -729,7 +1813,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &18
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -750,11 +1834,11 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 633
-    width: 1175
-    height: 366
+    y: 835
+    width: 989
+    height: 284
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &19
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -774,10 +1858,32 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1176
+    x: 990
     y: 73
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 743
+<<<<<<< HEAD
+=======
+    width: 929
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+    width: 929
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+    height: 689
+=======
+    height: 609
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
     width: 743
     height: 609
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    width: 743
+    height: 609
+>>>>>>> parent of cda49fa (Added interactable objects)
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -791,7 +1897,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &20
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -816,7 +1922,7 @@ MonoBehaviour:
     width: 1029
     height: 2046
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &21
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -841,7 +1947,7 @@ MonoBehaviour:
     width: 1029
     height: 2046
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &22
+--- !u!114 &26
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -861,6 +1967,42 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 1176
+<<<<<<< HEAD
+=======
+    x: 990
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
+    x: 990
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+    y: 783
+    width: 929
+    height: 336
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_LastSelectedObjectID: 17542
+=======
+    y: 703
+    width: 743
+    height: 296
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 17222
+>>>>>>> parent of cda49fa (Added interactable objects)
+--- !u!114 &23
+=======
+  m_LastSelectedObjectID: 17174
+--- !u!114 &27
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
+=======
     x: 1176
     y: 703
     width: 743
@@ -870,6 +2012,22 @@ MonoBehaviour:
     m_IsLocked: 0
   m_LastSelectedObjectID: 17222
 --- !u!114 &23
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+    x: 1176
+    y: 703
+    width: 743
+    height: 296
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 17222
+--- !u!114 &23
+>>>>>>> parent of cda49fa (Added interactable objects)
+=======
+  m_LastSelectedObjectID: 17174
+--- !u!114 &27
+>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -889,10 +2047,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2370
-    y: 1451
-    width: 1469
-    height: 668
+    x: 990
+    y: 783
+    width: 929
+    height: 336
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
@@ -901,15 +2059,16 @@ MonoBehaviour:
     - {fileID: 5749160778560344791, guid: 34887b50322580a43946c97b318fcbcb, type: 2}
     - {fileID: 3714694509812841495, guid: f82f65bfdfedd5640b58574fc8629b72, type: 2}
     - {fileID: -2246094019671917698, guid: e28263fdda4d38a48afea5e77aa879a1, type: 2}
+    - {fileID: -116127361200790188, guid: d0d82140eb804c6479c56e593be3071d, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.7846154
+    - e00: 0.5831579
       e01: 0
       e02: 0
-      e03: -24.230743
+      e03: -14.157867
       e10: 0
-      e11: 0.7846154
+      e11: 0.5831579
       e12: 0
-      e13: 415.12308
+      e13: 78.52106
       e20: 0
       e21: 0
       e22: 1
@@ -918,14 +2077,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 1
+    - e00: 0.5831579
       e01: 0
       e02: 0
-      e03: -30.5
+      e03: -14.157898
       e10: 0
-      e11: 1
+      e11: 0.5831579
       e12: 0
-      e13: 199.5
+      e13: 81.436844
       e20: 0
       e21: 0
       e22: 1
@@ -934,14 +2093,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 1
+    - e00: 0.5842105
       e01: 0
       e02: 0
-      e03: -30.5
+      e03: -14.21051
       e10: 0
-      e11: 1
+      e11: 0.5842105
       e12: 0
-      e13: 219.5
+      e13: 93
       e20: 0
       e21: 0
       e22: 1
@@ -950,14 +2109,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 2.4621162
+    - e00: 0.5138889
       e01: 0
       e02: 0
-      e03: -2887.449
+      e03: 56.111115
       e10: 0
-      e11: 2.4621162
+      e11: 0.5138889
       e12: 0
-      e13: -2076.9146
+      e13: 35.444443
       e20: 0
       e21: 0
       e22: 1
@@ -966,14 +2125,30 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 1
+    - e00: 0.5842105
       e01: 0
       e02: 0
-      e03: -30.5
+      e03: -14.21051
       e10: 0
-      e11: 1
+      e11: 0.5842105
       e12: 0
-      e13: 204.5
+      e13: 84.23685
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.5831579
+      e01: 0
+      e02: 0
+      e03: -14.157867
+      e10: 0
+      e11: 0.5831579
+      e12: 0
+      e13: 98.93158
       e20: 0
       e21: 0
       e22: 1
@@ -983,9 +2158,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: f82f65bfdfedd5640b58574fc8629b72, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: d0d82140eb804c6479c56e593be3071d, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 3714694509812841495, guid: f82f65bfdfedd5640b58574fc8629b72, type: 2}
+  - m_Target: {fileID: -116127361200790188, guid: d0d82140eb804c6479c56e593be3071d, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -998,7 +2173,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &24
+--- !u!114 &28
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

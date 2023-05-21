@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:TritonHacks/Assets/Sprites/Decorations/terminal_on.png.meta
 guid: 6ff926558d4968c41a4897d3f5f1b28a
+========
+guid: fdf20763a540a1e409df2e4fc471b105
+>>>>>>>> parent of 0c4cd31 (Merge branch 'master' of https://github.com/DanTheMan6492/TritonHacks2023):TritonHacks/Assets/Sprites/Tiles/wall_vent-1.png.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -32,7 +36,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -68,7 +72,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
