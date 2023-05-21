@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
     void Move(Vector2 targetVelocity)
     {
         // Set rigidbody velocity
-        rigidbody2D.velocity = (targetVelocity * movementSpeed) * Time.deltaTime; // Multiply the target by deltaTime to make movement speed consistent across different framerates
+        rigidbody2D.velocity = (targetVelocity * movementSpeed); //* Time.deltaTime; // Multiply the target by deltaTime to make movement speed consistent across different framerates
         if(targetVelocity.magnitude != 0)
         {
             animation.Play("Walk");
