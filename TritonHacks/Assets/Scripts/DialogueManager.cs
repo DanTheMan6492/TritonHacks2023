@@ -17,20 +17,10 @@ public class DialogueManager : MonoBehaviour
     public Animator Portraits;
     public Animator PortraitWindow;
 
-    public PlayerController player;
-
-    public bool isActive = false;
-
-    public void Update(){
-        if(Input.GetButtonDown("Continue") && isActive){
-            DisplayNextSentence();
-        }
-    }
     // Start is called before the first frame update
     void Start()
     {
         dialogueText.text = "";
-        
         nameText.text = "";
         Portrait.SetActive(false);
         Static.SetActive(false);
@@ -43,8 +33,6 @@ public class DialogueManager : MonoBehaviour
     {
         
         //Portrait.GetComponent<Image>().sprite = Unknown.sprite;
-        isActive = true;
-        player.Lock();
         animator.SetBool("isOpen", true);
         Portrait.SetActive(false);
         StartCoroutine(waitFor(dialogue));
@@ -59,7 +47,7 @@ public class DialogueManager : MonoBehaviour
         Portrait.SetActive(true);
         setPortrait(dialogue.portraits[0]);
         Portraits.Play("Portrait_Flicker");
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(0.3f);
 
         begin(dialogue);
     }
@@ -82,13 +70,13 @@ public class DialogueManager : MonoBehaviour
     public void DisplayNextSentence(){
         if(sentences.Count == 0)
         {
-            StopAllCoroutines();
             EndDialogue();
             return;
         }
 
         setPortrait(portraits.Dequeue());
         string sentence = sentences.Dequeue();
+        StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
     }
 
@@ -136,8 +124,6 @@ public class DialogueManager : MonoBehaviour
         nameText.text = "";
         Portrait.SetActive(false);
         Static.SetActive(false);
-        isActive = false;
-        player.Unlock();
         Debug.Log("End of Dialogue");
     }
 
