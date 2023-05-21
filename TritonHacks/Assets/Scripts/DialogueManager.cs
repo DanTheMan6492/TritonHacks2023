@@ -6,29 +6,49 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     private Queue<string> sentences;
+    private Queue<int> portraits;
     public Text nameText;
     public Text dialogueText;
-    public Texture2D portrait;
+
+    public GameObject Portrait;
+    public GameObject Static;
 
     public Animator animator;
+    public Animator Portraits;
+    public Animator PortraitWindow;
 
     // Start is called before the first frame update
     void Start()
     {
         dialogueText.text = "";
         nameText.text = "";
+        Portrait.SetActive(false);
+        Static.SetActive(false);
         sentences = new Queue<string>();
+        portraits = new Queue<int>();
+
     }
 
     public void StartDialogue (Dialogue dialogue)
     {
+        
+        //Portrait.GetComponent<Image>().sprite = Unknown.sprite;
         animator.SetBool("isOpen", true);
+        Portrait.SetActive(false);
         StartCoroutine(waitFor(dialogue));
     }
 
     IEnumerator waitFor(Dialogue dialogue)
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.7f);
+        Static.SetActive(true);
+        PortraitWindow.Play("Portrait_Open");
+        yield return new WaitForSeconds(0.3f);
+        Portrait.SetActive(true);
+        setPortrait(dialogue.portraits[0]);
+        Portraits.Play("Portrait_Flicker");
+        yield return new WaitForSeconds(0.3f);
+
         begin(dialogue);
     }
 
@@ -38,9 +58,10 @@ public class DialogueManager : MonoBehaviour
 
         sentences.Clear();
 
-        foreach (string sentence in dialogue.sentences)
+        for(int i = 0; i < dialogue.sentences.Length; i++)
         {
-            sentences.Enqueue(sentence);
+            sentences.Enqueue(dialogue.sentences[i]);
+            portraits.Enqueue(dialogue.portraits[i]);
         }
 
         DisplayNextSentence();
@@ -53,9 +74,35 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        setPortrait(portraits.Dequeue());
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
+    }
+
+    public void setPortrait(int num)
+    {
+        switch (num)
+        {
+            case 0:
+                Portraits.Play("Unknown");
+                break;
+            case 1:
+                Portraits.Play("Albert_Normal");
+                break;
+            case 2:
+                Portraits.Play("Albert_Angry");
+                break;
+            case 3:
+                Portraits.Play("Albert_Concern");
+                break;
+            case 4:
+                Portraits.Play("Albert_Sad");
+                break;
+            case 5:
+                Portraits.Play("Jones");
+                break;
+        }
     }
 
     IEnumerator TypeSentence (string sentence)
@@ -72,8 +119,11 @@ public class DialogueManager : MonoBehaviour
     private void EndDialogue()
     {
         animator.SetBool("isOpen", false);
+        PortraitWindow.Play("Portrait_Close");
         dialogueText.text = "";
         nameText.text = "";
+        Portrait.SetActive(false);
+        Static.SetActive(false);
         Debug.Log("End of Dialogue");
     }
 

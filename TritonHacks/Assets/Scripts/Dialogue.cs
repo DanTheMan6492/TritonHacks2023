@@ -7,9 +7,10 @@ using UnityEngine.UI;
 public class Dialogue
 {
     // Start is called before the first frame update
-    public Image sprite;
+    public int speaker;
     public string name;
 
     [TextArea(3, 10)]
     public string[] sentences;
+    public int[] portraits;
 }
