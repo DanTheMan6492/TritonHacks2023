@@ -10,8 +10,10 @@ public class PlayerController : MonoBehaviour
     // Local rigidbody variable to hold a reference to the attached Rigidbody2D component
     new Rigidbody2D rigidbody2D;
     new Animator animation;
-        SpriteRenderer sprite;
+    SpriteRenderer sprite;
     
+    public bool lockControls = false;
+
     public float movementSpeed;
 
     void Awake()
@@ -26,13 +28,24 @@ public class PlayerController : MonoBehaviour
         rigidbody2D.gravityScale = 0.0f;
     }
 
+    public void Lock(){
+        lockControls = true;
+    }
+
+    public void Unlock(){
+        lockControls = false;
+    }
+
+    void Start(){
+        lockControls = false;
+    }
 
     void Update()
     {
         // Handle user input
         Vector2 targetVelocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-
-        Move(targetVelocity);
+        if(!lockControls) Move(targetVelocity);
+        else rigidbody2D.velocity = targetVelocity * 0;
     }
 
     void Move(Vector2 targetVelocity)
