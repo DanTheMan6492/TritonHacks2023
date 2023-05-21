@@ -1,39 +1,16 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 16158 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 2020.3.25f1\Editor\Unity.exe
-=======
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32575 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
-
-COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 C:/Github/TritonHacks2023/TritonHacks
 -logFile
 Logs/AssetImportWorker0.log
@@ -79,63 +56,11 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (625ms)
 		BeginReloadAssembly (61ms)
-=======
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-C:/Users/User/Documents/GitHub/TritonHacks2023/TritonHacks
--logFile
-Logs/AssetImportWorker0.log
--srvPort
-55474
-Successfully changed project path to: C:/Users/User/Documents/GitHub/TritonHacks2023/TritonHacks
-C:/Users/User/Documents/GitHub/TritonHacks2023/TritonHacks
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.25f1 (9b9180224418)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/TritonHacks2023/TritonHacks/Assets
-GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
-    Vendor:   
-    VRAM:     6052 MB
-    Driver:   31.0.15.1748
-Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002700 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.509 seconds
-Domain Reload Profiling:
-	ReloadAssembly (510ms)
-		BeginReloadAssembly (52ms)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		EndReloadAssembly (483ms)
 			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -150,41 +75,12 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (9ms)
 				ProcessInitializeOnLoadAttributes (87ms)
 				ProcessInitializeOnLoadMethodAttributes (29ms)
-=======
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-		EndReloadAssembly (391ms)
-			LoadAssemblies (49ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (129ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (146ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (40ms)
-				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 Registered in 0.006347 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
@@ -222,87 +118,18 @@ Domain Reload Profiling:
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
-=======
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-Registered in 0.005436 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.991 seconds
-Domain Reload Profiling:
-	ReloadAssembly (992ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (809ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (301ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (40ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (175ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-=======
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
->>>>>>> parent of cda49fa (Added interactable objects)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.3 MB.
 System memory in use after: 96.4 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2635.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 Total: 2.991300 ms (FindLiveObjects: 0.180300 ms CreateObjectMapping: 0.105600 ms MarkObjects: 2.645500 ms  DeleteObjects: 0.059200 ms)
-=======
-Total: 2.881100 ms (FindLiveObjects: 0.160300 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.583500 ms  DeleteObjects: 0.060400 ms)
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
-Total: 2.881100 ms (FindLiveObjects: 0.160300 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.583500 ms  DeleteObjects: 0.060400 ms)
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
-Total: 2.881100 ms (FindLiveObjects: 0.160300 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.583500 ms  DeleteObjects: 0.060400 ms)
->>>>>>> parent of cda49fa (Added interactable objects)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -311,26 +138,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
->>>>>>> parent of cda49fa (Added interactable objects)
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3cc991b716ae91cfdf0361134abab0') in 0.015043 seconds 
@@ -367,77 +179,5 @@ Received Import Request.
   artifactKey: Guid(319e467e8bec84240bf244f2e5aaf7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/LevelTemplate.unity using Guid(319e467e8bec84240bf244f2e5aaf7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63699bbb10272de3c7fd54aa5c9d4329') in 0.006033 seconds 
   Import took 0.009435 seconds .
-=======
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-  path: Assets/Sprites/Tiles/wall_vent-1.png.png
-  artifactKey: Guid(fdf20763a540a1e409df2e4fc471b105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/wall_vent-1.png.png using Guid(fdf20763a540a1e409df2e4fc471b105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b61cc505dd5f455d3029ebad086e2b') in 0.151958 seconds 
-  Import took 0.154723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Sprites/Tiles/lab_floor.png.png
-  artifactKey: Guid(13a0c7acc28e8514f876a4d3d026a95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/lab_floor.png.png using Guid(13a0c7acc28e8514f876a4d3d026a95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435e116d290b4a5debaface6e8390aa2') in 0.018470 seconds 
-  Import took 0.021334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Sprites/Tiles/vent_ground.png
-  artifactKey: Guid(1edda95e146f8cf4997c47fec5da7dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/vent_ground.png using Guid(1edda95e146f8cf4997c47fec5da7dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a69346fd1f43a2325ac1ee70847718') in 0.064918 seconds 
-  Import took 0.068079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Sprites/Tiles/arrow_wall.png
-  artifactKey: Guid(569a076225a30564da8ec18559015459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/arrow_wall.png using Guid(569a076225a30564da8ec18559015459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddd603217cfe7c6d40663f687637d70') in 0.018337 seconds 
-  Import took 0.021333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Sprites/Tiles/regular_wall.png
-  artifactKey: Guid(6e208aaa8a56c224cb81da2481cd6322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/regular_wall.png using Guid(6e208aaa8a56c224cb81da2481cd6322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb358c805cd63ab1ccac892b84640d5') in 0.016529 seconds 
-  Import took 0.019352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Sprites/Tiles/window_normal.png
-  artifactKey: Guid(57cf07d17bfc39a4c96d8927a10b2afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/window_normal.png using Guid(57cf07d17bfc39a4c96d8927a10b2afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88592dbcaa5397ec0f2cac1ac4849b70') in 0.019915 seconds 
-  Import took 0.022760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Sprites/Tiles/window_cracked.png
-  artifactKey: Guid(d8abccf59afd9214f9e6bd501b85ad63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/window_cracked.png using Guid(d8abccf59afd9214f9e6bd501b85ad63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314b929100bf715972b8af2de2e3f83c') in 0.017376 seconds 
-  Import took 0.020437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Sprites/Tiles/New Palette.prefab
-  artifactKey: Guid(ee8af196038b7ea478084a05ee08d7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/New Palette.prefab using Guid(ee8af196038b7ea478084a05ee08d7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c299d4bb9cd462fc89a097ff8ef5c7f') in 0.035199 seconds 
-  Import took 0.038033 seconds .
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
-=======
->>>>>>> parent of cda49fa (Added interactable objects)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
